@@ -12,7 +12,7 @@ the cellar, I can read right away what it's all about.
 
 * Fetches and scrapes the cav release you're interested in.
 * Looks up title, description, drinking window, price
-* Generates a PDF that you can print and then cut out notes to put on each bottlea
+* Generates a PDF that you can print and then cut out notes to put on each bottle
 * Only in Swedish, as that's the language that Caviste uses!
 
 ### Usage
