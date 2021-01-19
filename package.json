@@ -1,0 +1,19 @@
+{
+  "name": "caviste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "env TESTING=TRUE mocha test/*.js",
+    "autotest": "env TESTING=TRUE mocha -w test/*.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "pdfkit": "^0.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
