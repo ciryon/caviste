@@ -53,21 +53,21 @@ class Caviste {
                 }
                 doc
                     // .font('fonts/PalatinoBold.ttf')
-                    .fontSize(18)
+                    .fontSize(28)
                     .text(wine.title, 100, 100)
 
                 if (wine.bottles > 1) {
-                    doc.fontSize(10)
-                        .text(` ${j}/${wine.bottles}`, 550, 100)
+                    doc.fontSize(20)
+                        .text(` ${j+1}/${wine.bottles}`, 550, 100)
 
                 }
                 doc
-                    .fontSize(12)
-                    .text(`Pris: ${wine.pricePerBottle} kr - Tidigast: ${wine.when.start} - Senast: ${wine.when.end} `, 100, 130)
-                    .text(`Till: ${wine.pairing} `, 100, 150)
+                    .fontSize(22)
+                    .text(`Pris: ${wine.pricePerBottle} kr - Tidigast: ${wine.when.start} - Senast: ${wine.when.end} `, 100, 230)
+                    .text(`Till: ${wine.pairing} `, 100, 280)
 
-                    .fontSize(11)
-                    .text(`${wine.desc}`, 100, 180)
+                    .fontSize(21)
+                    .text(`${wine.desc}`, 100, 360)
 
                 // .save()
                 // .moveTo(100, 70)
